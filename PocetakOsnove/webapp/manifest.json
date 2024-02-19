@@ -57,7 +57,7 @@
             ],
             "css": [
                 {
-                    "uri": "<uri>",
+                    "uri": "css/style.css",
                     "id": "<id>"
                 }
             ]
