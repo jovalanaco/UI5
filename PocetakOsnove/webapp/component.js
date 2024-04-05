@@ -21,7 +21,8 @@ sap.ui.define([
             this.setModel(oModel);
 
             // postavljnenje dijaloga
-            this._helloDialog = new HelloDialog(this.getRootControl()); 
+            this._helloDialog = new HelloDialog(this.getRootControl());
+            this.getRouter().initialize(); 
         },
 
         exit : function () {
